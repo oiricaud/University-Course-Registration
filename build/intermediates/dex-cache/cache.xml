@@ -5,7 +5,7 @@
         jar="/Users/oscarricaud/Pushnotifications/LoginRegister/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="170d09dceccd4342c02018cbcb3e5ad2be9e246f">
+        sha1="acb4c38b83d150a2110249a645a1437b8ac4bc71">
         <dex dex="/Users/oscarricaud/Pushnotifications/LoginRegister/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0c5a5aa66a7eb0466381ac6c76df7c58f5c09737/classes.dex" />
     </item>
     <item
@@ -40,7 +40,7 @@
         jar="/Users/oscarricaud/Pushnotifications/LoginRegister/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="39d5d6666992ee333f57596d7601ad7aa2dfb573">
+        sha1="c780e6582d4aa3dcbdd8b18b9e702b78ced01e3a">
         <dex dex="/Users/oscarricaud/Pushnotifications/LoginRegister/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0a5622b48832ff56677a3c323f2a31647c77c447/classes.dex" />
     </item>
     <item
