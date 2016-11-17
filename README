@@ -1,0 +1,5 @@
+This respiratory builds an android application with the following activities and xml files, LogIn, RegisterRequest and Register. 
+
+It first opens up and gives an opportunity to the user to log in if they have an existing account or to register if it doesn't. 
+
+If the user doesn't have an existing account it sends a request to my domain with the PHP files that I have defined.
