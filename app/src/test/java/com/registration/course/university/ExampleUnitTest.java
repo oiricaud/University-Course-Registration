@@ -1,4 +1,4 @@
-package com.restuarants.smart.loginregister;
+package com.registration.course.university;
 
 import org.junit.Test;
 

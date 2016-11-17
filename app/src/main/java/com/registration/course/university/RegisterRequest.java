@@ -1,4 +1,4 @@
-package com.restuarants.smart.loginregister;
+package com.registration.course.university;
 
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;

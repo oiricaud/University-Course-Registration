@@ -1,4 +1,4 @@
-package com.restuarants.smart.loginregister;
+package com.registration.course.university;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
