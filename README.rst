@@ -1,9 +1,10 @@
-**** Description
-
+Description
+======
 This respiratory builds an android application with the following activities and xml files, LogIn, RegisterRequest and Register. 
 The purpose of this assignment is to allow new or existing users to create accounts and be able to sign up for their college courses.
 
-********** How does it work?
+How does it work?
+======
 
 The android application launches and takes the user to the @see LoginActivity.java and gives an opportunity to the user to log in if they have an existing account, else to register for a new account. This works very well because of the files that are in the backend folder, @see Login.php & 
 Register.php. You see these 2 files are stored in my domain and talk to the database. For now the database contains a simple table called user, which
@@ -12,7 +13,8 @@ finally password.
 
 Once the user creates an account they can input their credentials with the help of @see Login.php and @see LoginActivity.java and @see LoginRequest verifies if the user credentials are correct. If the credentials are correct @see HomeActivity.java displays with a simple welcome home page.
 
-****************** Assignment 4 Advanced OO Programing
+Assignment 4 Advanced OO Programing
+======
 
 Javadoc & Unit Tests
 
