@@ -7,7 +7,7 @@
 *   It allows new users to register for accounts and checks if the username is available.
 *  @author Oscar I. Ricaud
 *  @version 1.0 Build November 16, 2016
- $connect = mysqli_connect("localhost", "narped5_oscarv3", "02040816", "narped5_RegisterSystemOOv3");
+ 
 */
     $con =  mysqli_connect("localhost", "YOUR username goes here ", "YOUR Password goes here", "The name of your database");
     
