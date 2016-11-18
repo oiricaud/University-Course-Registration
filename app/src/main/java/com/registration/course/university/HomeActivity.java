@@ -22,7 +22,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-      //  populateListView();
+        populateListView();
     }
 
     /**
@@ -31,9 +31,9 @@ public class HomeActivity extends AppCompatActivity {
     private void populateListView(){
         String [] courses = {"Discrete Math", "Intro to CS", "Data Structures", "Numerical Analysis" +
                 "Ethics", "Elementary Data Structures"};
-        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.activity_home, courses);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.activity_home, courses);
         ListView list = (ListView) findViewById(R.id.courseView);
-       // list.setAdapter(adapter);
+        list.setAdapter(adapter);
 
     }
 

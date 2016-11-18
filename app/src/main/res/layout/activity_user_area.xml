@@ -10,14 +10,14 @@
     tools:context="com.registration.course.university.UserAreaActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
         android:id="@+id/tvWelcomeMsg"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="241dp" />
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,22 +35,30 @@
         android:layout_below="@+id/textView2"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Age"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/etUsername"
-        android:layout_alignStart="@+id/textView2" />
-
-    <EditText
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/etAge"
-        android:layout_below="@+id/textView3"
+        android:text="Add Course"
+        android:id="@+id/etAddCourse"
+        android:layout_above="@+id/etDropCourse"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="98dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Transcript"
+        android:id="@+id/etViewTranscript"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drop Course"
+        android:id="@+id/etDropCourse"
+        android:layout_marginBottom="111dp"
+        android:layout_above="@+id/etViewTranscript"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
