@@ -89,7 +89,7 @@
         jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="2bcf861d7050f33a3c9583805631338153145116">
+        sha1="d0a5c3cec33a9fd1a22fb7497569d1ab4e9237de">
         <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_870df79645cc03ccce7cdace41c68e88c975c6e4/classes.dex" />
     </item>
     <item
@@ -110,7 +110,7 @@
         jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="173103b14932dd4e2498e40653869838daf95a34">
+        sha1="69d6ea2dc6ed0773fed139c319d1b6075a882802">
         <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c804cbb77bc9138a390c06e057ca721351e6d5f3/classes.dex" />
     </item>
     <item
