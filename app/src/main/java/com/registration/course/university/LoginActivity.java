@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
         final Button bLogin = (Button) findViewById(R.id.bLogin);
-        final TextView registerLink = (TextView) findViewById(R.id.tvRegisterHere);
+        final Button registerLink = (Button) findViewById(R.id.tvRegisterHere);
 
         registerLink.setOnClickListener(new View.OnClickListener() {
             @Override
