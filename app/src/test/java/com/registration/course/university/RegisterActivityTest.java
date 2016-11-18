@@ -11,7 +11,14 @@ public class RegisterActivityTest {
 
     @Test
     public void testOnCreate() throws Exception {
+        final String name = "oscar";
+        final String username = "oiricaud";
+        final int age = 22;
+        final String password = "apple48";
+        final boolean doYouHaveAccount = false;
 
-        assertEquals("oscar", "oscar");
+        assertEquals("oscar", name);
+        assertFalse(doYouHaveAccount);
     }
+
 }

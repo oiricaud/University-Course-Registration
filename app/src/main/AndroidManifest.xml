@@ -21,7 +21,7 @@
         <activity android:name=".RegisterActivity"></activity>
         <activity android:name=".UserAreaActivity"></activity>
         <activity
-            android:name="university.course.registration.HomeActivity"
+            android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

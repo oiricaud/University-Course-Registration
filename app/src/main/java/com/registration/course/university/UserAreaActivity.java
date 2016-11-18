@@ -16,6 +16,6 @@ public class UserAreaActivity extends AppCompatActivity {
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final EditText etAge = (EditText) findViewById(R.id.etAge);
 
-        final TextView welcomMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
+        final TextView welcomeMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
     }
 }

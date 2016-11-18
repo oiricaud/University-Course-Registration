@@ -35,24 +35,25 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-
+        final EditText etAge = (EditText) findViewById(R.id.etAge);
         final EditText etName = (EditText) findViewById(R.id.etName);
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        final EditText etAge = (EditText) findViewById(R.id.etAge);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
-
         final Button bRegister = (Button) findViewById(R.id.bRegister);
+
         // Listen to the user input.
         bRegister.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
 
                 final String name = etName.getText().toString();
                 final String username = etUsername.getText().toString();
-                final int age = Integer.parseInt(etAge.getText().toString());
                 final String password = etPassword.getText().toString();
+                final int age = Integer.parseInt(etAge.getText().toString());
 
-                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+
+                // startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
 
                 // Verifies if the user login input is correct with the database I created
                 // If the input log in successfully it allows the user to go to the next activity,
@@ -68,10 +69,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 RegisterActivity.this.startActivity(intent);
                             } else{
                                 AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                                builder.setMessage("Register Failed")
-                                        .setNegativeButton("Retry", null)
-                                        .create()
-                                        .show();
+                                builder.setMessage("Register Failed").setNegativeButton("Retry", null).create().show();
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -79,10 +77,12 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 };
 
+
                 // The next 3 lines calls the @see RegisterRequest class.
                 RegisterRequest registerRequest = new RegisterRequest(name, username, age, password,responseListener);
                 RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
                 queue.add(registerRequest);
+
             }
         });
     }
