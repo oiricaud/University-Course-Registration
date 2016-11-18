@@ -16,7 +16,7 @@ Once the user creates an account they can input their credentials with the help 
 Screenshots
 ======
 
-![alt text](https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Login.png "Log in")
+(https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Login.png "Log in")
 
 Assignment 4 Advanced OO Programing
 ======
