@@ -6,6 +6,17 @@ import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/**
+ *  This UserAreaActivity gets called from the LoginActivity once the user has successfully logged in
+ *  In other words this is the activity that will soon in the future contain the list of courses where
+ *  the user can select from and register through the database. This will speed up the process of adding
+ *  deleting or removing courses without touching the code. How? Well the database is the brain and
+ *  I will use this class as a way to handle the brain.
+ *
+ *  In the meantime it prints a simple welcome message and the username of the user.
+ *  @author Oscar I. Ricaud
+ *  @version 1.0 Build November 16, 2016
+ */
 public class UserAreaActivity extends AppCompatActivity {
 
     @Override
