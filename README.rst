@@ -13,6 +13,11 @@ finally password.
 
 Once the user creates an account they can input their credentials with the help of @see Login.php and @see LoginActivity.java and @see LoginRequest verifies if the user credentials are correct. If the credentials are correct @see HomeActivity.java displays with a simple welcome home page.
 
+Screenshots
+======
+
+![alt text](https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Login.png "Log in")
+
 Assignment 4 Advanced OO Programing
 ======
 
