@@ -10,29 +10,21 @@
  
 */
     $con =  mysqli_connect("localhost", "YOUR username goes here ", "YOUR Password goes here", "The name of your database");
-    
-    $name = $_POST["name"];
-    $age = $_POST["age"];
+
+    $firstname = $_POST["firstname"];
+    $lastname = $_POST["lastname"];
+    $email = $_POST["email"];
     $username = $_POST["username"];
     $password = $_POST["password"];
-     
-    /**
-     * This method registers the User with the predefined table I have created on myPhpAdmin.
-     * @see mysqli_stmt_bind_param sends safe queries to the database from @see mysqli_prepare.
-     * In other words @see mysqli_stm_bind_param are placeholders for the input. 
-     */
+    $age = $_POST["age"];
 
-    function registerUser() {
-        global $connect, $name, $age, $username, $password;
-        $statement = mysqli_prepare($connect, "INSERT INTO user (name, age, username, password) VALUES (?, ?, ?, ?)");
-        mysqli_stmt_bind_param($statement, "siss", $name, $age, $username, $password);
+     function registerUser() {
+        global $connect, $firstname, $lastname, $email, $username, $password, $age;
+        $statement = mysqli_prepare($connect, "INSERT INTO user (firstname, lastname, email, username, password, age) VALUES (?, ?, ?, ?, ?, ?)");
+        mysqli_stmt_bind_param($statement, "sssssi", $firstname, $lastname, $email, $username, $password, $age);
         mysqli_stmt_execute($statement);
         mysqli_stmt_close($statement);     
     }
-
-    /**
-     * This method checks if the username is avaliable from the database.
-     */
     function usernameAvailable() {
         global $connect, $username;
         $statement = mysqli_prepare($connect, "SELECT * FROM user WHERE username = ?"); 
