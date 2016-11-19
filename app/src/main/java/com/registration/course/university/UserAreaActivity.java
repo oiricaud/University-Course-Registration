@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
@@ -26,9 +27,9 @@ public class UserAreaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_area);
 
-        final Button bAddCourse = (Button) findViewById(R.id.etAddCourse);
-        final Button bDropCourse = (Button) findViewById(R.id.etDropCourse);
-        final Button bViewTranscript = (Button) findViewById(R.id.etViewTranscript);
+        final Button bAddCourse = (Button) findViewById(R.id.etAddCourses);
+        final Button bDropCourse = (Button) findViewById(R.id.etDropCourses);
+        final Button bViewTranscript = (Button) findViewById(R.id.etTranscript);
 
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final TextView welcomeMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
@@ -41,11 +42,29 @@ public class UserAreaActivity extends AppCompatActivity {
         welcomeMessage.setText(message);
         etUsername.setText(username);
 
+
         bAddCourse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent addCoursesIntent = new Intent(UserAreaActivity.this, AddCourses.class);
                 UserAreaActivity.this.startActivity(addCoursesIntent);
+            }
+        });
+
+
+        bDropCourse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent dropCoursesIntent = new Intent(UserAreaActivity.this, DropCourses.class);
+                UserAreaActivity.this.startActivity(dropCoursesIntent);
+            }
+        });
+
+        bViewTranscript.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent transcriptIntent = new Intent(UserAreaActivity.this, Transcript.class);
+                UserAreaActivity.this.startActivity(transcriptIntent);
             }
         });
 

@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="Add Courses"
-            android:id="@+id/etAddCourse"
+            android:id="@+id/etAddCourses"
             android:layout_alignParentEnd="true"
             android:background="#c9613f"
             android:layout_above="@+id/etAddCourse"
@@ -70,24 +70,26 @@
             android:layout_marginLeft="10dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Drop Courses"
+            android:id="@+id/etDropCourses"
             android:background="#c9613f"
             android:textColor="#ffffff"
             android:layout_above="@+id/etDropCourse"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_weight="1"/>
+
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Transcript"
+            android:id="@+id/etTranscript"
             android:background="#c9613f"
             android:textColor="#ffffff"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="1"
-            android:id="@+id/etViewTranscript" />
+            android:layout_weight="1"/>
 
     </LinearLayout>
 

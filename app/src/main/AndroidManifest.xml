@@ -17,14 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        university.class.registration
+
         <activity android:name=".RegisterActivity"></activity>
         <activity android:name=".UserAreaActivity"></activity>
         <activity android:name=".AddCourses"></activity>
+        <activity android:name=".DropCourses"></activity>
+        <activity android:name=".Transcript"></activity>
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>
