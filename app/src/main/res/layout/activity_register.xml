@@ -13,7 +13,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etName"
+        android:id="@+id/etFirstname"
         android:hint="First Name"
         android:textColorHint="#706d6d"
         android:layout_alignParentTop="true"
@@ -26,7 +26,8 @@
         android:hint="Username"
         android:textColorHint="#706d6d"
         android:layout_below="@+id/etEmail"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -34,11 +35,11 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/etPassword"
-        android:layout_alignParentStart="true"
         android:hint="Password"
         android:textColorHint="#706d6d"
         android:layout_below="@+id/etUsername"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -49,7 +50,8 @@
         android:hint="Age"
         android:textColorHint="#706d6d"
         android:layout_below="@+id/etPassword"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -59,9 +61,9 @@
         android:id="@+id/etEmail"
         android:textColorHint="#706d6d"
         android:hint="E-Mail"
-        android:layout_below="@+id/etName"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="36dp" />
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/etLastname"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="match_parent"
@@ -77,11 +79,12 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText"
-        android:layout_below="@+id/etName"
-        android:layout_alignStart="@+id/etEmail"
+        android:id="@+id/etLastname"
         android:hint="Last Name"
         android:textColorHint="#706d6d"
-        android:textColor="#706d6d" />
+        android:textColor="#706d6d"
+        android:layout_below="@+id/etFirstname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
 
 </RelativeLayout>

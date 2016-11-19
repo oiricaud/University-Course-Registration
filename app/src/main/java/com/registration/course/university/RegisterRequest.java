@@ -20,20 +20,23 @@ public class RegisterRequest extends StringRequest{
 
     /**
      * This method sends a POST request to the database.
-     * @param name The user first name of the user. .
+     * @param firstname The user first name of the user. .
      * @param username The username the user needs to be able to log in to their account.
      * @param age The user's age.
      * @param password The user's password.
      * @param listener The listener listens to the responses from the user.
      */
 
-    public RegisterRequest(String name, String username, int age, String password, Response.Listener<String> listener){
+    public RegisterRequest(String firstname, String lastname, String email, String username,
+                           String password, int age, Response.Listener<String> listener){
         super(Method.POST, REGISTER_REQUEST_URL, listener, null);
         params = new HashMap<>();
-        params.put("name", name);
+        params.put("firstname", firstname);
+        params.put("lastname", lastname);
+        params.put("email", email);
         params.put("username", username);
-        params.put("age", age + "");
         params.put("password", password);
+        params.put("age", age + "");
     }
 
     @Override

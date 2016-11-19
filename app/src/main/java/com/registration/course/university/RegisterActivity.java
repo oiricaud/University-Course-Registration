@@ -35,10 +35,13 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        final EditText etAge = (EditText) findViewById(R.id.etAge);
-        final EditText etName = (EditText) findViewById(R.id.etName);
+
+        final EditText etFirstname = (EditText) findViewById(R.id.etFirstname);
+        final EditText etLastname = (EditText) findViewById(R.id.etLastname);
+        final EditText etEmail = (EditText) findViewById(R.id.etEmail);
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
+        final EditText etAge = (EditText) findViewById(R.id.etAge);
         final Button bRegister = (Button) findViewById(R.id.bRegister);
 
         // Listen to the user input.
@@ -47,7 +50,9 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                final String name = etName.getText().toString();
+                final String firstname = etFirstname.getText().toString();
+                final String lastname = etLastname.getText().toString();
+                final String email = etEmail.getText().toString();
                 final String username = etUsername.getText().toString();
                 final String password = etPassword.getText().toString();
                 final int age = Integer.parseInt(etAge.getText().toString());
@@ -79,7 +84,9 @@ public class RegisterActivity extends AppCompatActivity {
 
 
                 // The next 3 lines calls the @see RegisterRequest class.
-                RegisterRequest registerRequest = new RegisterRequest(name, username, age, password, responseListener);
+                RegisterRequest registerRequest = new RegisterRequest(firstname, lastname, email,
+                                                      username, password, age, responseListener);
+
                 RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
                 queue.add(registerRequest);
 
