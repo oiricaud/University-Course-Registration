@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.registration.course.university.UserAreaActivity">
+    tools:context="com.registration.course.university.UserAreaActivity"
+    android:background="#ece1cd">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,9 +16,20 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
         android:id="@+id/tvWelcomeMsg"
+        android:textAlignment="center"
+        android:textColorHint="#706d6d"
+        android:textColor="#706d6d"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="center" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:layout_below="@+id/tvWelcomeMsg"
+        android:layout_toEndOf="@+id/textView2"
+        android:textColor="#706d6d" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,40 +37,58 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Username"
         android:id="@+id/textView2"
-        android:layout_below="@+id/tvWelcomeMsg"
-        android:layout_alignStart="@+id/tvWelcomeMsg" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etUsername"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add Course"
-        android:id="@+id/etAddCourse"
-        android:layout_above="@+id/etDropCourse"
+        android:layout_alignBottom="@+id/etUsername"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="98dp" />
+        android:textColor="#706d6d"
+        android:layout_below="@+id/tvWelcomeMsg"
+        android:gravity="center" />
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="View Transcript"
-        android:id="@+id/etViewTranscript"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/etUsername"
+        android:layout_alignParentEnd="true"
+        android:gravity="center|bottom"
+        android:layout_gravity="center"
+        android:baselineAligned="false">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Drop Course"
-        android:id="@+id/etDropCourse"
-        android:layout_marginBottom="111dp"
-        android:layout_above="@+id/etViewTranscript"
-        android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Add Courses"
+            android:id="@+id/etAddCourse"
+            android:layout_alignParentEnd="true"
+            android:background="#c9613f"
+            android:layout_above="@+id/etAddCourse"
+            android:textColor="#ffffff"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Drop Courses"
+            android:background="#c9613f"
+            android:textColor="#ffffff"
+            android:layout_above="@+id/etDropCourse"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Transcript"
+            android:background="#c9613f"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:id="@+id/etViewTranscript" />
+
+    </LinearLayout>
 
 </RelativeLayout>

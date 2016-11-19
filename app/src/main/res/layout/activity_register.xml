@@ -17,7 +17,21 @@
         android:hint="First Name"
         android:textColorHint="#706d6d"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#706d6d" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etLastname"
+        android:hint="Last Name"
+        android:textColorHint="#706d6d"
+        android:textColor="#706d6d"
+        android:layout_below="@+id/etFirstname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -73,18 +87,5 @@
         android:background="#c9613f"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/etLastname"
-        android:hint="Last Name"
-        android:textColorHint="#706d6d"
-        android:textColor="#706d6d"
-        android:layout_below="@+id/etFirstname"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="30dp" />
 
 </RelativeLayout>

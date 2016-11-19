@@ -62,11 +62,11 @@ public class LoginActivity extends AppCompatActivity {
                             JSONObject jsonResponse = new JSONObject(response);
                             boolean success = jsonResponse.getBoolean("success");
                             if(success){
-                                String name = jsonResponse.getString("name");
+                                String firstname = jsonResponse.getString("firstname");
 
 
                                 Intent intent = new Intent(LoginActivity.this, UserAreaActivity.class);
-                                intent.putExtra("name", name);
+                                intent.putExtra("firstname", firstname);
                                 intent.putExtra("username", username);
 
                                 LoginActivity.this.startActivity(intent);
