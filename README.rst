@@ -21,8 +21,6 @@ Screenshots
 
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Login_filled.png "Login_filled")
 
-(https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Register.png "Register")
-
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Database.png "Database")
 
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Add_Courses.png "Add Courses")
