@@ -1,6 +1,7 @@
 Description
 ======
-This respiratory builds an android application with the following activities and xml files, LogIn, RegisterRequest and Register. 
+This respiratory builds an android application with the idea of having the same University Course Registration (Goldmine) experience on a mobile device.
+
 The purpose of this assignment is to allow new or existing users to create accounts and be able to sign up for their college courses.
 
 How does it work?
