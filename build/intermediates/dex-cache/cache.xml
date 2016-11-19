@@ -1,2 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_35fdaa6b2838e61e636856daade98625d6cbf952/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_fb88b2811d25e06c1a6ad41193c48b4131bf889f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_0b7dfdff60605f9cd7ca5e78c4b23cea5662fd19/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_81237df6b3366b92135d12b6b7953e1937842134/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_2a47f7a038bc5812c8b7d212798436bf0a8c1030/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_7b6cf74e79767835442bf1d6b88b3d13d4c3d127/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_3175ba89a85cc9596e15b0c5a32d202b7ad011f3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_b3eda22ed910e13b765a15af3b19f17ba27297a1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_beb2a5b3d086d867d4a201106ea03b7d52571142/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_86b7944b9384900ed9b7663d87d2acbfbf8fa1fd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_4b71859cc4aff49f94152d6b6ba689d5c633d293/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_bb2010dbfbae6c1d82f06a724673bad86e1c2c3d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d7919e7bf90806a2fcec4ec6e2754f04442207b4">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_870df79645cc03ccce7cdace41c68e88c975c6e4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_5a5ce12b380d17ef975672758db8660ffe3beb34/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_a31bfd537c10d5f99757e4eb799d6e7d95841d90/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="58b6d1cbbdea4afbf2e42bbf1e3d28fff94f9c87">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c804cbb77bc9138a390c06e057ca721351e6d5f3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_1db1a9c3569375e65e6c94661b128cfbc5b28023/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_7da0ec1dd04277b41d1d7480456faa2589653deb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_c5ff0952e7b832b98ebd5718e68003b19b9079b9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_92bef6d2175e02a85d989b075baee5ebf35f9002/classes.dex" />
+    </item>
+    <item
+        jar="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/oscarricaud/University-Course-Registration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_fbb4f0512a496296362ad4a0eb82dd0aae33778d/classes.dex" />
+    </item>
+
+</items>

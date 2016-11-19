@@ -41,7 +41,8 @@
         android:textColorHint="#706d6d"
         android:layout_below="@+id/etEmail"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="31dp" />
+        android:layout_marginTop="31dp"
+        android:textColor="#706d6d" />
 
     <EditText
         android:layout_width="match_parent"
@@ -53,7 +54,8 @@
         android:textColorHint="#706d6d"
         android:layout_below="@+id/etUsername"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="30dp"
+        android:textColor="#706d6d" />
 
     <EditText
         android:layout_width="match_parent"
@@ -65,7 +67,8 @@
         android:textColorHint="#706d6d"
         android:layout_below="@+id/etPassword"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="47dp" />
+        android:layout_marginTop="47dp"
+        android:textColor="#706d6d" />
 
     <EditText
         android:layout_width="match_parent"
@@ -77,7 +80,8 @@
         android:hint="E-Mail"
         android:layout_marginTop="35dp"
         android:layout_below="@+id/etLastname"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#706d6d" />
 
     <Button
         android:layout_width="match_parent"
