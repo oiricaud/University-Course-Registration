@@ -7,23 +7,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.registration.course.university.RegisterActivity">
+    tools:context="com.registration.course.university.RegisterActivity"
+    android:background="#ece1cd">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etName"
+        android:hint="First Name"
+        android:textColorHint="#706d6d"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:hint="Name" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etUsername"
-        android:layout_below="@+id/etName"
-        android:layout_alignParentStart="true"
-        android:hint="Username" />
+        android:hint="Username"
+        android:textColorHint="#706d6d"
+        android:layout_below="@+id/etEmail"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_width="match_parent"
@@ -31,9 +34,11 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/etPassword"
-        android:layout_below="@+id/etUsername"
         android:layout_alignParentStart="true"
-        android:hint="Password" />
+        android:hint="Password"
+        android:textColorHint="#706d6d"
+        android:layout_below="@+id/etUsername"
+        android:layout_alignParentLeft="true" />
 
     <EditText
         android:layout_width="match_parent"
@@ -41,15 +46,42 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/etAge"
+        android:hint="Age"
+        android:textColorHint="#706d6d"
         android:layout_below="@+id/etPassword"
-        android:layout_centerHorizontal="true"
-        android:hint="Age" />
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:textColorHint="#706d6d"
+        android:hint="E-Mail"
+        android:layout_below="@+id/etName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
         android:id="@+id/bRegister"
-        android:layout_below="@+id/etAge"
-        android:layout_centerHorizontal="true" />
+        android:background="#c9613f"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/etName"
+        android:layout_alignStart="@+id/etEmail"
+        android:hint="Last Name"
+        android:textColorHint="#706d6d"
+        android:textColor="#706d6d" />
+
 </RelativeLayout>
