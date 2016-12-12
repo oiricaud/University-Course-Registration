@@ -14,10 +14,6 @@ finally password.
 
 Once the user creates an account they can input their credentials with the help of @see Login.php and @see LoginActivity.java and @see LoginRequest verifies if the user credentials are correct. If the credentials are correct @see HomeActivity.java displays with a simple welcome home page.
 
-Video 
-======
-Coming very soon.
-
 Screenshots
 ======
 ![alt tag](Screenshots/Home-2.png "Log in")
@@ -25,6 +21,8 @@ Screenshots
 ![alt tag](Screenshots/Register-2.png "Register")
 
 ![alt tag](Screenshots/Welcome.png "Welcome!")
+
+![alt tag](Screenshots/Add_Courses.png "Register for courses!")
 
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Database.png "Database")
 
