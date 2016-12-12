@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.registration.course.university.LoginActivity"
-    android:background="#ece1cd">
+    tools:context="com.registration.course.university.LoginActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +18,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:textColor="#000000" />
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif" />
 
     <EditText
         android:layout_width="match_parent"
@@ -29,8 +30,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="143dp"
-        android:textColor="#706d6d"
-        android:textColorHint="#706d6d" />
+        android:textColor="#D3D3D3"
+        android:textColorHint="#D3D3D3" />
+
 
     <EditText
         android:layout_width="match_parent"
@@ -42,8 +44,8 @@
         android:layout_below="@+id/etUsername"
         android:layout_alignParentStart="true"
         android:layout_marginTop="56dp"
-        android:textColor="#706d6d"
-        android:textColorHint="#706d6d" />
+        android:textColor="#D3D3D3"
+        android:textColorHint="#D3D3D3" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,7 +54,8 @@
         android:layout_alignParentEnd="true"
         android:gravity="center|bottom"
         android:layout_gravity="center"
-        android:baselineAligned="false">
+        android:baselineAligned="false"
+        android:textStyle="normal|bold">
 
         <Button
             android:layout_width="0dp"
@@ -62,7 +65,7 @@
             android:id="@+id/bLogin"
             android:layout_above="@+id/tvRegisterHere"
             android:layout_alignParentEnd="true"
-            android:background="#c9613f"
+            android:background="#FFA944"
             android:textColor="#ffffff"
             android:layout_weight="1" />
 
@@ -73,7 +76,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Create Account"
             android:id="@+id/tvRegisterHere"
-            android:background="@color/material_blue_grey_900"
+            android:background="#015297"
             android:textColor="#ffffff"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"

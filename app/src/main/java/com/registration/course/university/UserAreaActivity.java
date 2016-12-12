@@ -31,7 +31,7 @@ public class UserAreaActivity extends AppCompatActivity {
         final Button bDropCourse = (Button) findViewById(R.id.etDropCourses);
         final Button bViewTranscript = (Button) findViewById(R.id.etTranscript);
 
-        final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        final TextView etUsername = (TextView) findViewById(R.id.etUsername);
         final TextView welcomeMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
 
         Intent intent = getIntent();

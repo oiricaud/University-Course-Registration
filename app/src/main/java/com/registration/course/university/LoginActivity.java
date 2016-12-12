@@ -1,6 +1,7 @@
 package com.registration.course.university;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import com.android.volley.toolbox.Volley;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 
 /** The LoginActivity class allows existing users to login in with their credentials, view
@@ -35,12 +37,17 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        // Font path
+        String fontPath = "fonts/Brandon_reg.otf";
+        TextView univ = (TextView) findViewById(R.id.etUniv);
+        // Loading Font Face
+        Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
+        // Applying font
+        univ.setTypeface(tf);
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
         final Button bLogin = (Button) findViewById(R.id.bLogin);
         final Button registerLink = (Button) findViewById(R.id.tvRegisterHere);
-
         registerLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

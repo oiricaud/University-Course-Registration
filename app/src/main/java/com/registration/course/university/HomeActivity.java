@@ -6,7 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-/** This activity is where the User can view the classes it can register for, I might delete it
+/** The user can view the classes it can register for, I might delete it
  * since it is redundent at the moment but I don't want to break anything like last time.
  * But the purpose of this class is to act as a holder of the courses of the university.
  * It will talk to the database and obtain the data as such.
