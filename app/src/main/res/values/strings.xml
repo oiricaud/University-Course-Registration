@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">LoginRegister</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string-array name="computer_science_courses">
+        <item>Intro to Computer Science</item>
+        <item>Elementary Data Structures</item>
+        <item>Data Structures</item>
+        <item>Adv. Obj Oriented Pro.</item>
+    </string-array>
 </resources>

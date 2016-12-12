@@ -13,43 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Term: Spring 2017"
+        android:text="Spring 2017"
         android:id="@+id/etTextViewAddCourses"
         android:textColor="#ffffff"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
         android:textSize="28sp" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_marginTop="110dp"
-        android:hint="Subject"
-        android:gravity="center"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="viewStart" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText3"
-        android:hint="Course"
-        android:gravity="center"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff"
-        android:layout_below="@+id/editText2"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="40dp"
-        android:textAlignment="viewStart" />
 
     <Button
         android:layout_width="match_parent"
@@ -61,19 +31,52 @@
         android:background="#015297"
         android:layout_gravity="center" />
 
-    <EditText
-        android:layout_width="match_parent"
+    <TableLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:hint="CRN"
-        android:gravity="center"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff"
-        android:layout_below="@+id/editText3"
+        android:layout_weight="1"
+        android:layout_below="@+id/etTextViewAddCourses"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="38dp"
-        android:textAlignment="viewStart" />
+        android:layout_marginTop="44dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Course:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textStyle="normal|bold"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:entries="@array/computer_science_courses"
+                android:layout_alignBaseline="@+id/editText2"
+                android:layout_alignBottom="@+id/editText2"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1"
+                android:paddingLeft="40dp"
+                android:backgroundTint="@android:color/holo_orange_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 
 </RelativeLayout>
