@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.registration.course.university.UserAreaActivity"
-    android:background="#ece1cd">
+    tools:context="com.registration.course.university.UserAreaActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -18,55 +17,36 @@
         android:id="@+id/tvWelcomeMsg"
         android:textAlignment="center"
         android:textColorHint="#706d6d"
-        android:textColor="#000000"
+        android:textColor="@android:color/background_light"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="30dp"
-        android:textSize="26sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etUsername"
-        android:layout_below="@+id/tvWelcomeMsg"
-        android:layout_toEndOf="@+id/textView2"
-        android:textColor="#706d6d"
-        android:textSize="16sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="username:  "
-        android:id="@+id/textView2"
-        android:layout_alignBottom="@+id/etUsername"
-        android:layout_alignParentStart="true"
-        android:textColor="#706d6d"
-        android:layout_below="@+id/tvWelcomeMsg"
-        android:gravity="center"
-        android:textSize="16sp" />
+        android:textSize="28sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/etUsername"
-        android:layout_alignParentEnd="true"
-        android:gravity="center|bottom"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
         android:layout_gravity="center"
-        android:baselineAligned="false">
+        android:baselineAligned="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
+
             android:text="Add Courses"
             android:id="@+id/etAddCourses"
-            android:layout_alignParentEnd="true"
-            android:background="#c9613f"
+
+            android:background="#FFA944"
             android:layout_above="@+id/etAddCourse"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp"
             android:textColor="#ffffff"
-            android:layout_weight="1" />
+            android:textStyle="normal|bold" />
 
         <Button
             android:layout_width="0dp"
@@ -75,12 +55,14 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Drop Courses"
             android:id="@+id/etDropCourses"
-            android:background="#c9613f"
+            android:background="#FFA944"
             android:textColor="#ffffff"
             android:layout_above="@+id/etDropCourse"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="normal|bold" />
 
         <Button
             android:layout_width="0dp"
@@ -89,11 +71,211 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Transcript"
             android:id="@+id/etTranscript"
-            android:background="#c9613f"
+            android:background="#FFA944"
             android:textColor="#ffffff"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWelcomeMsg"
+        android:layout_alignParentStart="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Username:  "
+                    android:id="@+id/textView2"
+                    android:layout_alignBottom="@+id/etUsername"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#D3D3D3"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:gravity="center"
+                    android:textSize="20sp"
+
+                    android:paddingBottom="25dp"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etUsername"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:layout_toEndOf="@+id/textView2"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:hint="Student username " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Students name:  "
+                    android:id="@+id/textView5"
+                    android:layout_alignBottom="@+id/etUsername"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#D3D3D3"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="25dp"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:layout_toEndOf="@+id/textView6"
+                    android:textColor="#706d6d"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:hint="Student name"
+                    android:textAlignment="textEnd" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Cumulative GPA:  "
+                    android:layout_alignBottom="@+id/etUsername"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#D3D3D3"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="25dp"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:layout_toEndOf="@+id/textView2"
+                    android:textColor="#706d6d"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:hint="Students GPA"
+                    android:textAlignment="viewEnd" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Major GPA:  "
+                    android:layout_alignBottom="@+id/etUsername"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#D3D3D3"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="25dp"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:layout_toEndOf="@+id/textView2"
+                    android:textColor="#706d6d"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:hint="Student Major GPA"
+                    android:textAlignment="viewEnd" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Major:  "
+                    android:layout_alignBottom="@+id/etUsername"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#D3D3D3"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="25dp"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:layout_toEndOf="@+id/textView2"
+                    android:textColor="#706d6d"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:hint="Student major"
+                    android:textAlignment="viewEnd" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Classification:  "
+                    android:layout_alignBottom="@+id/etUsername"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#D3D3D3"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="25dp"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvWelcomeMsg"
+                    android:layout_toEndOf="@+id/textView2"
+                    android:textColor="#706d6d"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:hint="Student major"
+                    android:textAlignment="viewEnd" />
+            </TableRow>
+
+        </TableLayout>
 
     </LinearLayout>
 

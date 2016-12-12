@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.registration.course.university.AddCourses"
-    android:background="#ece1cd">
+    tools:context="com.registration.course.university.AddCourses">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,41 +15,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Term: Spring 2017"
         android:id="@+id/etTextViewAddCourses"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:textSize="26sp" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/etFirstname"
-        android:layout_marginTop="63dp"
-        android:hint="First name"
-        android:gravity="center"
-        android:textColor="#706d6d"
-        android:textColorHint="#706d6d"
-        android:layout_below="@+id/etTextViewAddCourses"
-        android:layout_alignParentStart="true"
-        android:textAlignment="viewStart" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:hint="Last name"
-        android:gravity="center"
-        android:textColor="#706d6d"
-        android:textColorHint="#706d6d"
-        android:layout_below="@+id/etFirstname"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="44dp"
-        android:textAlignment="viewStart" />
+        android:textSize="28sp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -58,11 +27,11 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editText2"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="110dp"
         android:hint="Subject"
         android:gravity="center"
-        android:textColor="#706d6d"
-        android:textColorHint="#706d6d"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:textAlignment="viewStart" />
@@ -75,8 +44,8 @@
         android:id="@+id/editText3"
         android:hint="Course"
         android:gravity="center"
-        android:textColor="#706d6d"
-        android:textColorHint="#706d6d"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
         android:layout_below="@+id/editText2"
         android:layout_alignParentStart="true"
         android:layout_marginTop="40dp"
@@ -89,7 +58,7 @@
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#c9613f"
+        android:background="#015297"
         android:layout_gravity="center" />
 
     <EditText
@@ -100,8 +69,8 @@
         android:id="@+id/editText4"
         android:hint="CRN"
         android:gravity="center"
-        android:textColor="#706d6d"
-        android:textColorHint="#706d6d"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
         android:layout_below="@+id/editText3"
         android:layout_alignParentStart="true"
         android:layout_marginTop="38dp"

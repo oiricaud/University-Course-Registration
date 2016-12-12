@@ -1,6 +1,7 @@
 package com.registration.course.university;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,15 +31,20 @@ public class UserAreaActivity extends AppCompatActivity {
         final Button bAddCourse = (Button) findViewById(R.id.etAddCourses);
         final Button bDropCourse = (Button) findViewById(R.id.etDropCourses);
         final Button bViewTranscript = (Button) findViewById(R.id.etTranscript);
-
         final TextView etUsername = (TextView) findViewById(R.id.etUsername);
-        final TextView welcomeMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
+        // Font path
+        String fontPath = "fonts/Brandon_reg.otf";
+        TextView welcomeMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
+        // Loading Font Face
+        Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
+        // Applying font
+        welcomeMessage.setTypeface(tf);
 
         Intent intent = getIntent();
         String firstname = intent.getStringExtra("firstname");
         String username = intent.getStringExtra("username");
 
-        String message = "Welcome " + firstname;
+        String message = "Welcome " + firstname + "!";
         welcomeMessage.setText(message);
         etUsername.setText(username);
 
