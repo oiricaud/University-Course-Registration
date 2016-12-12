@@ -35,19 +35,16 @@ Use Cases
 ======
 ![alt tag](https://cloud.githubusercontent.com/assets/11867058/21087373/7487f0e2-bfe2-11e6-8bf9-d97d105b385b.png)
 
-Register
+Register - Complete 
 
-Log in
+Log in - Complete
 
 Manage Schedule
 
-Add Course
+Add Course - Complete 
 
-Drop Course
+Drop Course 
 
 View Catalog
 
 View Transcript
-
-Test Cases
-======
