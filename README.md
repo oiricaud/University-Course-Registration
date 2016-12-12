@@ -12,7 +12,7 @@ The android application [launches](Screenshots/Home-2.png) and the [LoginActivit
 
 Once the user creates an account they can input their [credentials](Screenshots/Home-2.png) with the help of [Login.php](backend/Login.php) and [LoginActivity.java](app/src/main/java/com/registration/course/university/LoginActivity.java) and [LoginRequest.java](app/src/main/java/com/registration/course/university/LoginRequest.java) verifies if the user credentials are correct. If the credentials are correct [HomeActivity.java](app/src/main/java/com/registration/course/university/HomeActivity.java) class [displays](Screenshots/Home.png) a simple welcome home page. In the [HomeActivity.java](app/src/main/java/com/registration/course/university/HomeActivity.java) class the user can either [AddCourses.java](app/src/main/java/com/registration/course/university/AddCourses.java), [DropCourses.java](app/src/main/java/com/registration/course/university/DropCourses.java), or [ViewTranscript.java](app/src/main/java/com/registration/course/university/Transcript.java).
 
-The user has an array of [choices](Screenshots/Add_Courses.png it can choose from, to enroll for a computer science course. 
+The user has an array of [choices](Screenshots/Add_Courses.png) it can choose from, to enroll for a computer science course. 
 
 Screenshots
 ======
