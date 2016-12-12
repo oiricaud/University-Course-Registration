@@ -25,12 +25,9 @@ Screenshots
 
 ![alt tag](Screenshots/Add_Courses.png "Register for courses!")
 
-![alt tag](Screenshots/Database.png "Register for courses!")
-
-(https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Database.png "Database")
+![alt tag](Screenshots/Database.png "Database")
 
 Above screenshot I have the new register students which includes username/password stored safely in the database 
-
 
 Use Cases
 ======
