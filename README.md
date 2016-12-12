@@ -8,10 +8,7 @@ The purpose of this respiratory is to allow new or existing users to create acco
 How does it work?
 ======
 
-The android application launches and takes the user to the @see LoginActivity.java and gives an opportunity to the user to log in if they have an existing account, else to register for a new account. This works very well because of the files that are in the backend folder, @see Login.php & 
-Register.php. You see these 2 files are stored in my domain and talk to the database. For now the database contains a simple table called user, which
-is where the information of the user is stored, i.e user_id (which auto increments each time a new account is created), name, username, age and
-finally password.  
+The android application launches and takes the user to the [LoginActivity.java](app/src/main/java/com/registration/course/university/LoginActivity.java) class and gives an opportunity to the user to log in if they have an existing account, else to register for a new account [Register.java](app/src/main/java/com/registration/course/university/RegisterActivity.java). This works very well because of the files that are in the backend folder,  [Login.php](backend/Login.php) & [Register.php](backend/Register.php). The Login.php and Register.php are stored in my domain, http://www.narped.com and send requests each time the user creates an account. to the  The database contains a simple table called user, whichis where the information of the user is stored, i.e user_id (which auto increments each time a new account is created), name, username, age andfinally password.  
 
 Once the user creates an account they can input their credentials with the help of @see Login.php and @see LoginActivity.java and @see LoginRequest verifies if the user credentials are correct. If the credentials are correct @see HomeActivity.java displays with a simple welcome home page.
 
