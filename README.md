@@ -22,7 +22,6 @@ Screenshots
 ======
 ![alt tag](Screenshots/Home-2.png "Log in")
 
-
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Login_filled.png "Login_filled")
 
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Database.png "Database")
