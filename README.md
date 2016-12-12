@@ -1,6 +1,7 @@
 Description
 ======
-This respiratory builds an android application with the idea of having the same University Course Registration (Goldmine) experience on a mobile device.
+
+This respiratory contains an android java application of a University Course Registration. To test this yourself, download this respiratory as a zip file and unzip the folder on your Desktop. Then open Android Studio and click on "Open an Existing Android Studio Project", find the unzip folder and import build.gradle.
 
 The purpose of this respiratory is to allow new or existing users to create accounts and be able to sign up for their college courses. It is common for University students to enroll for their classes. Hence, this application will enhance the experience of the user to register through a mobile app.
 
@@ -36,15 +37,21 @@ Use Cases
 ![alt tag](https://cloud.githubusercontent.com/assets/11867058/21087373/7487f0e2-bfe2-11e6-8bf9-d97d105b385b.png)
 
 Register - Complete 
-
+  This use case allows for new users to create an account. To create an account the user must provide first and last name, email, username, password and age. 
+  
 Log in - Complete
+  The user could then log in with their existing credentials, then the credentials are verfied in the backend database. If they are correct the user is then prompted to the Home/Manage Schedule.
 
-Manage Schedule
+Home/Manage Schedule
+  This is the main function of the app. The user could add, drop courses or view their transcript.
 
 Add Course - Complete 
-
+  User could add courses which is sent to a database.
+  
 Drop Course 
-
+  If the user has current classes register it can drop courses here. 
+  
 View Catalog
+
 
 View Transcript
