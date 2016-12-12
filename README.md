@@ -19,7 +19,8 @@ Video - Coming very soon.
 
 Screenshots
 ======
-![alt tag](Screenshots/Home-1.png "Log in")
+![alt tag](Screenshots/Home-2.png "Log in")
+
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Home-1.png "Log in")
 
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Register.png "Register")
