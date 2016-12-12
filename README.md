@@ -2,7 +2,7 @@ Description
 ======
 This respiratory builds an android application with the idea of having the same University Course Registration (Goldmine) experience on a mobile device.
 
-The purpose of this respiratory is to allow new or existing users to create accounts and be able to sign up for their college courses. It is common for University students to enroll for their classes. Hence, this application will enchance the experience of the user to register through a mobile app.
+The purpose of this respiratory is to allow new or existing users to create accounts and be able to sign up for their college courses. It is common for University students to enroll for their classes. Hence, this application will enhance the experience of the user to register through a mobile app.
 
 How does it work?
 ======
@@ -22,6 +22,8 @@ Screenshots
 ======
 ![alt tag](Screenshots/Home-2.png "Log in")
 
+![alt tag](Screenshots/Register-2.png "Register")
+
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Login_filled.png "Login_filled")
 
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Database.png "Database")
@@ -32,7 +34,19 @@ Use Cases
 ======
 ![alt tag](https://cloud.githubusercontent.com/assets/11867058/21087373/7487f0e2-bfe2-11e6-8bf9-d97d105b385b.png)
 
-Coming Soon
+Register
+
+Log in
+
+Manage Schedule
+
+Add Course
+
+Drop Course
+
+View Catalog
+
+View Transcript
 
 Test Cases
 ======
