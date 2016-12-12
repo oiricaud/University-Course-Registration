@@ -27,7 +27,7 @@ Screenshots
 
 ![alt tag](Screenshots/Database.png "Database")
 
-Above screenshot I have the new register students which includes username/password stored safely in the database 
+Above, I have a table which contains new/register students' creditantials which are stored safely in the database.
 
 Use Cases
 ======
@@ -37,14 +37,12 @@ Register - This use case allows for new users to create an account. To create an
   
 Log in - The user could then log in with their existing credentials, then the credentials are verfied in the backend database. If they are correct the user is then prompted to the Home/Manage Schedule.
 
-Home/Manage Schedule
-  This is the main function of the app. The user could add, drop courses or view their transcript.
+Home/Manage Schedule - This is the main function of the app. The user could add, drop courses or view their transcript.
 
 Add Course - User could add courses which is sent to a database.
   
 Drop Course - If the user has current classes register it can drop courses here. 
   
 View Catalog
-
 
 View Transcript
