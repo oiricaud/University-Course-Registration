@@ -24,7 +24,7 @@ Screenshots
 
 ![alt tag](Screenshots/Register-2.png "Register")
 
-(https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Login_filled.png "Login_filled")
+![alt tag](Screenshots/Welcome.png "Welcome!")
 
 (https://github.com/oiricaud/University-Course-Registration/blob/master/Screenshots/Database.png "Database")
 
